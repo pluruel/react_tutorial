@@ -1,13 +1,14 @@
 import React from 'react';
+import WithRouterSample from './WithRouterSample';
 
 const data = {
   abc: {
-    name: 'ㅁㅁㅁ',
-    description: 'ㅇㅇㅇㅇ',
+    name: '럴럴',
+    description: 'aaaaaaaa',
   },
   cde: {
-    name: 'bbb',
-    description: 'dddd',
+    name: '룰룰',
+    description: 'ddbbdd',
   },
 };
 
@@ -23,6 +24,7 @@ const Profile = ({ match }) => {
         {username}({profile.name})
       </h3>
       <p>{profile.description}</p>
+      <WithRouterSample />
     </div>
   );
 };
