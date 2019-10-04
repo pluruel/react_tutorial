@@ -16,7 +16,7 @@ const CategoriesBlock = styled.div`
   display: flex;
   padding: 1rem;
   width: 768px;
-  magin: 0 auto;
+  margin: 0 auto;
   @media screen and(max-width:768px) {
     width: 100%;
     overflow-x: auto;
